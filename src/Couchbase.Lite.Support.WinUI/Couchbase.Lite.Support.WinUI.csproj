@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configurations>Debug;Release;Packaging;PackagingDebug</Configurations>
     <Platforms>x64;arm64</Platforms>
-    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
     <RuntimeIdentifiers>win10-x64;win10-arm64</RuntimeIdentifiers>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -30,7 +30,7 @@
     <PlatformTarget>$(Platform)</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;NETFX_CORE;NET6_0_WINDOWS10</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;NET7_0_WINDOWS10</DefineConstants>
     <NoWarn>;2008</NoWarn>
     <DebugType>portable</DebugType>
     <UseVSHostingProcess>false</UseVSHostingProcess>
@@ -39,7 +39,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <PlatformTarget>$(Platform)</PlatformTarget>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE;NETFX_CORE;NET6_0_WINDOWS10</DefineConstants>
+    <DefineConstants>TRACE;NETFX_CORE;NET7_0_WINDOWS10</DefineConstants>
     <Optimize>true</Optimize>
     <NoWarn>;2008</NoWarn>
     <DebugType>portable</DebugType>
@@ -49,7 +49,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Packaging'">
     <PlatformTarget>$(Platform)</PlatformTarget>
     <OutputPath>bin\Packaging\</OutputPath>
-    <DefineConstants>TRACE;NETFX_CORE;NET6_0_WINDOWS10</DefineConstants>
+    <DefineConstants>TRACE;NETFX_CORE;NET7_0_WINDOWS10</DefineConstants>
     <Optimize>true</Optimize>
     <NoWarn>;2008</NoWarn>
     <NoStdLib>true</NoStdLib>
@@ -63,7 +63,7 @@
     <DebugSymbols>true</DebugSymbols>
     <PlatformTarget>$(Platform)</PlatformTarget>
     <OutputPath>bin\PackagingDebug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;NETFX_CORE;NET6_0_WINDOWS10</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;NET7_0_WINDOWS10</DefineConstants>
     <NoWarn>;2008</NoWarn>
     <NoStdLib>true</NoStdLib>
     <DebugType>portable</DebugType>
